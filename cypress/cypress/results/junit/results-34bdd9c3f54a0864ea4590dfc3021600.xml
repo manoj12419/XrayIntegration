@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.720" tests="2" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-12-04T05:35:36" tests="0" file="cypress\e2e\Folder\test.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="the upload demo" timestamp="2023-12-04T05:35:36" tests="2" time="11.714" failures="1">
+    <testcase name="the upload demo YAK-2 Test2" time="0.000" classname="YAK-2 Test2">
+      <failure message="Timed out retrying after 4000ms: expected &apos;&lt;h1.glue-headline.glue-headline--headline-4&gt;&apos; to contain text &apos;Example Domain&apos;, but the text was &apos;\n          We bring the best of Google to help solve some of humanity’s biggest challenges — combining funding, innovation, and technical expertise to support underserved communities and provide opportunity for everyone.\n\n\n        &apos;" type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: expected '<h1.glue-headline.glue-headline--headline-4>' to contain text 'Example Domain', but the text was '\n          We bring the best of Google to help solve some of humanity’s biggest challenges — combining funding, innovation, and technical expertise to support underserved communities and provide opportunity for everyone.\n\n\n        '
+    at Context.eval (webpack://cypress_project/./cypress/e2e/Folder/test.cy.js:8:21)
+
+      + expected - actual
+
+      -'\n          We bring the best of Google to help solve some of humanity’s biggest challenges — combining funding, innovation, and technical expertise to support underserved communities and provide opportunity for everyone.\n\n\n        '
+      +'Example Domain'
+      ]]></failure>
+    </testcase>
+    <testcase name="the upload demo YAK-1 Test1" time="0.923" classname="YAK-1 Test1">
+    </testcase>
+  </testsuite>
+</testsuites>

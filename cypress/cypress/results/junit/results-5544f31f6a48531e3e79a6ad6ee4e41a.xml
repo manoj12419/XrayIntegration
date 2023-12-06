@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.445" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-12-06T01:57:48" tests="1" file="cypress\e2e\Folder\test.cy.js" time="0.442" failures="1">
+    <testcase name="An uncaught error was detected outside of a test" time="0.000" classname="An uncaught error was detected outside of a test">
+      <failure message="The following error originated from your test code, not from Cypress.
+
+  &gt; process is not defined
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure." type="ReferenceError"><![CDATA[ReferenceError: The following error originated from your test code, not from Cypress.
+
+  > process is not defined
+
+When Cypress detects uncaught errors originating from your test code it will automatically fail the current test.
+
+Cypress could not associate this error to any specific test.
+
+We dynamically generated a new test to display this failure.
+    at ./node_modules/ci-info/index.js (webpack://cypress_project/./node_modules/ci-info/index.js:5:0)
+    at __webpack_require__ (webpack://cypress_project/webpack/bootstrap:19:0)
+    at ./node_modules/is-ci/index.js (webpack://cypress_project/./node_modules/is-ci/index.js:3:0)
+    at __webpack_require__ (webpack://cypress_project/webpack/bootstrap:19:0)
+    at ./node_modules/cypress/lib/util.js (webpack://cypress_project/./node_modules/cypress/lib/util.js:12:13)
+    at __webpack_require__ (webpack://cypress_project/webpack/bootstrap:19:0)
+    at ./node_modules/cypress/index.js (webpack://cypress_project/./node_modules/cypress/index.js:6:13)
+    at __webpack_require__ (webpack://cypress_project/webpack/bootstrap:19:0)
+    at eval (webpack://cypress_project/./cypress/e2e/Folder/test.cy.js:1:16)
+    at eval (http://localhost:59526/__cypress/tests?p=cypress\e2e\Folder\test.cy.js:156215:3)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
